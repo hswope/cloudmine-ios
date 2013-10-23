@@ -670,4 +670,11 @@ typedef void (^CMWebServiceResultCallback)(id responseBody, NSError *errors, NSU
                         errorHandler:(CMWebServiceFetchFailureCallback)errorHandler;
 
 
+/**
+* Called after an HTTP Request is constructed but before it is returned allowing children to override the request
+*
+* @param request The just created request
+*/
+-(void)afterConstructHTTPRequest: (NSMutableURLRequest *) request;
+
 @end

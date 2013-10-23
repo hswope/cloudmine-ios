@@ -1679,6 +1679,8 @@ NSString * const YAJLErrorKey = @"YAJLErrorKey";
         NSLog(@"Constructed CloudMine URL: %@\nHeaders:%@", [request URL], [request allHTTPHeaderFields]);
     #endif
 
+    [self afterConstructHTTPRequest:request];
+
     return [request copy];
 }
 
@@ -1804,5 +1806,11 @@ NSString * const YAJLErrorKey = @"YAJLErrorKey";
     }
     return [theUrl URLByAppendingQueryString:[queryComponents componentsJoinedByString:@"&"]];
 }
+
+-(void)afterConstructHTTPRequest: (NSMutableURLRequest *) request
+{
+
+}
+
 
 @end
