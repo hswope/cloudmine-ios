@@ -6,23 +6,8 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		7A87314B14BB09E3000D6DEA /* CloudMine */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 7A87314C14BB09E3000D6DEA /* Build configuration list for PBXAggregateTarget "CloudMine" */;
-			buildPhases = (
-				7A87314F14BB0A0A000D6DEA /* Build Static Libs */,
-				7A87315014BB0A5F000D6DEA /* Build universal binary */,
-				7A87315114BB0AB0000D6DEA /* CopyFiles */,
-			);
-			dependencies = (
-			);
-			name = CloudMine;
-			productName = CloudMine.framework;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
+		5468AD7FDA20458BA2B56DFD /* libPods-cloudmine-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BEC46F0BFED4CCA885359DB /* libPods-cloudmine-ios.a */; };
 		65199EC2156A7D9500267EC6 /* CMDeleteResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 65199EB0156A7D9500267EC6 /* CMDeleteResponse.m */; };
 		65199EC3156A7D9500267EC6 /* CMFileFetchResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 65199EB2156A7D9500267EC6 /* CMFileFetchResponse.m */; };
 		65199EC4156A7D9500267EC6 /* CMFileUploadResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 65199EB4156A7D9500267EC6 /* CMFileUploadResponse.m */; };
@@ -32,17 +17,6 @@
 		65199EC8156A7D9500267EC6 /* CMSnippetResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 65199EBC156A7D9500267EC6 /* CMSnippetResult.m */; };
 		65199EC9156A7D9500267EC6 /* CMStoreResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 65199EBE156A7D9500267EC6 /* CMStoreResponse.m */; };
 		65199ECA156A7D9500267EC6 /* CMDistance.m in Sources */ = {isa = PBXBuildFile; fileRef = 65199EC1156A7D9500267EC6 /* CMDistance.m */; };
-		65199ECD156A847A00267EC6 /* CMDeleteResponse.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65199EAF156A7D9500267EC6 /* CMDeleteResponse.h */; };
-		65199ECE156A847A00267EC6 /* CMFileFetchResponse.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65199EB1156A7D9500267EC6 /* CMFileFetchResponse.h */; };
-		65199ECF156A847A00267EC6 /* CMFileUploadResponse.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65199EB3156A7D9500267EC6 /* CMFileUploadResponse.h */; };
-		65199ED0156A847A00267EC6 /* CMObjectFetchResponse.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65199EB5156A7D9500267EC6 /* CMObjectFetchResponse.h */; };
-		65199ED1156A847A00267EC6 /* CMObjectUploadResponse.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65199EB7156A7D9500267EC6 /* CMObjectUploadResponse.h */; };
-		65199ED2156A847A00267EC6 /* CMResponseMetadata.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65199EB9156A7D9500267EC6 /* CMResponseMetadata.h */; };
-		65199ED3156A847A00267EC6 /* CMSnippetResult.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65199EBB156A7D9500267EC6 /* CMSnippetResult.h */; };
-		65199ED4156A847A00267EC6 /* CMStoreResponse.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65199EBD156A7D9500267EC6 /* CMStoreResponse.h */; };
-		65199ED5156A84D600267EC6 /* CMDistance.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65199EC0156A7D9500267EC6 /* CMDistance.h */; };
-		715217581653F5C4007FB0A9 /* CMSocialLoginViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 71E886B516516C3D0060C217 /* CMSocialLoginViewController.h */; };
-		7152175A1653F5C4007FB0A9 /* CMUIViewController+Modal.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 71E886B816516F0F0060C217 /* CMUIViewController+Modal.h */; };
 		71E886B716516C3D0060C217 /* CMSocialLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E886B616516C3D0060C217 /* CMSocialLoginViewController.m */; };
 		71E886BA16516F0F0060C217 /* CMUIViewController+Modal.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E886B916516F0F0060C217 /* CMUIViewController+Modal.m */; };
 		7A0413D2146C5B5200EF537A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0413D1146C5B5200EF537A /* CFNetwork.framework */; };
@@ -55,17 +29,7 @@
 		7A0D7CD41581097200C7C476 /* CMObjectSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0D7CD31581097200C7C476 /* CMObjectSpec.m */; };
 		7A0D7CFC1581479000C7C476 /* CMNullStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0D7CFB1581479000C7C476 /* CMNullStore.m */; };
 		7A0DB1BC147B016B007F482C /* CMBlockValidationMessageSpy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0DB1BB147B016B007F482C /* CMBlockValidationMessageSpy.m */; };
-		7A262E0B14C8F8B0006A03BA /* NSURL+QueryParameterAdditions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AD36F8B146CB6A600DD4734 /* NSURL+QueryParameterAdditions.h */; };
-		7A262E0C14C8F8B0006A03BA /* CMStore.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A7E31C614C88F8A0091F1E3 /* CMStore.h */; };
-		7A28002615922364002C504A /* CMDate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AFDFE36158E959B00388D6E /* CMDate.h */; };
-		7A28002715922364002C504A /* CMFile.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AFDFE38158E959B00388D6E /* CMFile.h */; };
-		7A28002815922364002C504A /* CMGeoPoint.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AFDFE3A158E959B00388D6E /* CMGeoPoint.h */; };
-		7A28002915922364002C504A /* CMObject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AFDFE3C158E959B00388D6E /* CMObject.h */; };
-		7A28002A15922364002C504A /* CMObjectClassNameRegistry.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AFDFE3E158E959B00388D6E /* CMObjectClassNameRegistry.h */; };
-		7A28002B15922364002C504A /* CMUntypedObject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AFDFE40158E959B00388D6E /* CMUntypedObject.h */; };
-		7A28002C15922364002C504A /* CMNullStore.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A0D7CFA1581479000C7C476 /* CMNullStore.h */; };
 		7A28003D15923446002C504A /* CMUserSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4A6F2814FFF08100B95D13 /* CMUserSpec.m */; };
-		7A28005515929AEC002C504A /* CMObjectOwnershipLevel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A28005315928518002C504A /* CMObjectOwnershipLevel.h */; };
 		7A308A3714798EFD008ADD3C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD36F80146C656600DD4734 /* UIKit.framework */; };
 		7A308A3814798F0E008ADD3C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0413D5146C5B6900EF537A /* MobileCoreServices.framework */; };
 		7A308A3914798F12008ADD3C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0413D3146C5B5C00EF537A /* SystemConfiguration.framework */; };
@@ -73,32 +37,15 @@
 		7A308A3B14798F1D008ADD3C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0413D1146C5B5200EF537A /* CFNetwork.framework */; };
 		7A308A3C14798F29008ADD3C /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0413D9146C5B7400EF537A /* libz.dylib */; };
 		7A308A4414799134008ADD3C /* CMWebServiceSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A308A4314799134008ADD3C /* CMWebServiceSpec.m */; };
-		7A308A4C14799471008ADD3C /* libKiwi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A308A4B14799471008ADD3C /* libKiwi.a */; };
-		7A3DCEEF15EECBB600AC4890 /* AFHTTPClient.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D088F59B15E3FDF1005062BD /* AFHTTPClient.h */; };
-		7A4A6FB91500474500B95D13 /* CMUserAccountResult.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A4A6F2B14FFF3CF00B95D13 /* CMUserAccountResult.h */; };
 		7A58CC2214F1B544003E864B /* CMMimeType.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A58CC2014F1B544003E864B /* CMMimeType.m */; };
-		7A58CC2314F1B54E003E864B /* CMMimeType.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A58CC1F14F1B544003E864B /* CMMimeType.h */; };
-		7A5C40A814D8B11D00906689 /* CMPagingDescriptor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AD9221A14CF47350032DDDE /* CMPagingDescriptor.h */; };
-		7A5C40A914D8B11D00906689 /* CMStoreOptions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AD9222114D06B9A0032DDDE /* CMStoreOptions.h */; };
-		7A5C40AA14D8B11D00906689 /* CMStoreCallbacks.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AD7DA5714D221F600F771C7 /* CMStoreCallbacks.h */; };
 		7A6B800D14871BCA00D8B211 /* CMObjectDecoderSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6B800C14871BCA00D8B211 /* CMObjectDecoderSpec.m */; };
 		7A6B801114871E3700D8B211 /* CMGenericSerializableObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6B801014871E3700D8B211 /* CMGenericSerializableObject.m */; };
 		7A766209156307DF009840EE /* CMSortDescriptorSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A766208156307DF009840EE /* CMSortDescriptorSpec.m */; };
 		7A7E31C414C603780091F1E3 /* CMGeoPointTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7E31C314C603780091F1E3 /* CMGeoPointTest.m */; };
 		7A7E31C914C88F8A0091F1E3 /* CMStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7E31C714C88F8A0091F1E3 /* CMStore.m */; };
 		7A7E31CB14C88F980091F1E3 /* CMStoreSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7E31CA14C88F970091F1E3 /* CMStoreSpec.m */; };
-		7A87315314BB0AD0000D6DEA /* NSString+UUID.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AABA2E61480598300FD52A0 /* NSString+UUID.h */; };
-		7A87315414BB0AD0000D6DEA /* CMObjectDecoder.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AABA2FB14818DCA00FD52A0 /* CMObjectDecoder.h */; };
-		7A87315514BB0AD0000D6DEA /* CMObjectEncoder.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AABA2FE14818DCA00FD52A0 /* CMObjectEncoder.h */; };
-		7A87315614BB0AD0000D6DEA /* CMJSONEncoder.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AABA30414818E2A00FD52A0 /* CMJSONEncoder.h */; };
-		7A87315714BB0AD0000D6DEA /* CMWebService.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AD36F7C146C650500DD4734 /* CMWebService.h */; };
-		7A87315914BB0AD0000D6DEA /* CMAPICredentials.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AD36F82146CA4AC00DD4734 /* CMAPICredentials.h */; };
-		7A87315A14BB0AD0000D6DEA /* CMServerFunction.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A04E869147D8435006E00AB /* CMServerFunction.h */; };
-		7A87315B14BB0AD0000D6DEA /* CMSerializable.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AABA2E21480513500FD52A0 /* CMSerializable.h */; };
 		7A87316614BB309F000D6DEA /* NSMutableData+RandomData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A87316514BB309F000D6DEA /* NSMutableData+RandomData.m */; };
-		7A87A3351563FF2700D788E2 /* CMSortDescriptor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AE284891562C3C8003E8A8F /* CMSortDescriptor.h */; };
 		7A91E8D914E6EF85008B7941 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A91E8D814E6EF85008B7941 /* CoreLocation.framework */; };
-		7A934E78150E8CC200A2CAD6 /* CMObjectSerialization.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A7EDBD9148EBE3800AB5B69 /* CMObjectSerialization.h */; };
 		7AA79D6314DC1FB900F3CA3B /* CMCrossPlatformGenericSerializableObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA79D6214DC1FB900F3CA3B /* CMCrossPlatformGenericSerializableObject.m */; };
 		7AA79D7A14DC23C700F3CA3B /* MARTNSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA79D6D14DC23C700F3CA3B /* MARTNSObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w"; }; };
 		7AA79D7C14DC23C700F3CA3B /* RTIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA79D6F14DC23C700F3CA3B /* RTIvar.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w"; }; };
@@ -106,7 +53,6 @@
 		7AA79D8014DC23C700F3CA3B /* RTProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA79D7314DC23C700F3CA3B /* RTProperty.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w"; }; };
 		7AA79D8214DC23C700F3CA3B /* RTProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA79D7514DC23C700F3CA3B /* RTProtocol.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w"; }; };
 		7AA79D8414DC23C700F3CA3B /* RTUnregisteredClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA79D7714DC23C700F3CA3B /* RTUnregisteredClass.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w"; }; };
-		7AA79DDD14DC5E4D00F3CA3B /* CloudMine.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AA79DDA14DC5E4000F3CA3B /* CloudMine.h */; };
 		7AABA2E51480549A00FD52A0 /* CMObjectEncoderSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AABA2E41480549A00FD52A0 /* CMObjectEncoderSpec.m */; };
 		7AABA2E91480598300FD52A0 /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AABA2E71480598300FD52A0 /* NSString+UUID.m */; };
 		7AABA30114818DCA00FD52A0 /* CMObjectDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AABA2FC14818DCA00FD52A0 /* CMObjectDecoder.m */; };
@@ -116,9 +62,7 @@
 		7AB4AB63145DC5D8006AEF67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AB4AB62145DC5D8006AEF67 /* Foundation.framework */; };
 		7AB4AB71145DC5D8006AEF67 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AB4AB70145DC5D8006AEF67 /* SenTestingKit.framework */; };
 		7AB4AB74145DC5D8006AEF67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AB4AB62145DC5D8006AEF67 /* Foundation.framework */; };
-		7AB4AB77145DC5D8006AEF67 /* libcloudmine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AB4AB5F145DC5D8006AEF67 /* libcloudmine.a */; };
 		7AB4AB7D145DC5D8006AEF67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7AB4AB7B145DC5D8006AEF67 /* InfoPlist.strings */; };
-		7AB8BAFA1521066F00860081 /* SPLowVerbosity.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AF02D521507B36D005F03FD /* SPLowVerbosity.h */; };
 		7AD36F7F146C650500DD4734 /* CMWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD36F7D146C650500DD4734 /* CMWebService.m */; };
 		7AD36F81146C656600DD4734 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD36F80146C656600DD4734 /* UIKit.framework */; };
 		7AD36F85146CA4AC00DD4734 /* CMAPICredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD36F83146CA4AC00DD4734 /* CMAPICredentials.m */; };
@@ -129,12 +73,8 @@
 		7AD9222614D06EB10032DDDE /* CMStoreOptionsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD9222514D06EB10032DDDE /* CMStoreOptionsSpec.m */; };
 		7AD93BAF14D1CCFE00CC1CC9 /* CMFileSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD93BAE14D1CCFE00CC1CC9 /* CMFileSpec.m */; };
 		7AE2848B1562C3C8003E8A8F /* CMSortDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE2848A1562C3C8003E8A8F /* CMSortDescriptor.m */; };
-		7AE355D714F1B896006AF903 /* CMFileUploadResult.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AE355D414F1B850006AF903 /* CMFileUploadResult.h */; };
-		7AEF7B4B158EB60000BE47B3 /* CMActiveUser.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AFDFE48158E965400388D6E /* CMActiveUser.h */; };
 		7AF00BA015A8DC650070442A /* CMACL.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF00B9D15A8DC650070442A /* CMACL.m */; };
 		7AF00BA115A8DC650070442A /* CMUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF00B9F15A8DC650070442A /* CMUser.m */; };
-		7AF00BA215A8DC7C0070442A /* CMACL.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AF00B9C15A8DC650070442A /* CMACL.h */; };
-		7AF00BA315A8DC7C0070442A /* CMUser.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AF00B9E15A8DC650070442A /* CMUser.h */; };
 		7AF02D5B1507B36D005F03FD /* SPLowVerbosity.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF02D531507B36D005F03FD /* SPLowVerbosity.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		7AF6685514719FC900E2A06D /* YAJLiOS in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF6685414719FC800E2A06D /* YAJLiOS */; };
 		7AFDFE42158E959B00388D6E /* CMDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFDFE37158E959B00388D6E /* CMDate.m */; };
@@ -145,25 +85,16 @@
 		7AFDFE47158E959B00388D6E /* CMUntypedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFDFE41158E959B00388D6E /* CMUntypedObject.m */; };
 		7AFDFE4A158E965400388D6E /* CMActiveUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFDFE49158E965400388D6E /* CMActiveUser.m */; };
 		7AFDFE4C158E9EB400388D6E /* CMActiveUserSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFDFE4B158E9EB400388D6E /* CMActiveUserSpec.m */; };
-		AAA850ED168271B600C18957 /* CMDeviceTokenResult.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AAA850EC168271B500C18957 /* CMDeviceTokenResult.h */; };
 		AAB2E0B0167B94CF00D2C699 /* CMAppDelegateBase.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB2E0AF167B94CF00D2C699 /* CMAppDelegateBase.m */; };
-		AAB2E0B4167BA05700D2C699 /* CMAppDelegateBase.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AAB2E0AE167B94CF00D2C699 /* CMAppDelegateBase.h */; };
 		AAC1D8F116DD4BCC002A7DC0 /* CMChannelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC1D8F016DD4BCC002A7DC0 /* CMChannelResponse.m */; };
 		AAC1D8F416DD51FB002A7DC0 /* CMResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC1D8F316DD51FA002A7DC0 /* CMResponse.m */; };
-		AAC1D8F916DD5B34002A7DC0 /* CMResponse.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AAC1D8F216DD51F9002A7DC0 /* CMResponse.h */; };
-		AAC1D8FA16DD5B34002A7DC0 /* CMChannelResponse.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AAC1D8EF16DD4BCB002A7DC0 /* CMChannelResponse.h */; };
-		AAC1D90916DD6CA6002A7DC0 /* CMViewChannelsResponse.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AAC1D90716DD6CA4002A7DC0 /* CMViewChannelsResponse.h */; };
 		AAC1D90A16DD6CA6002A7DC0 /* CMViewChannelsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC1D90816DD6CA5002A7DC0 /* CMViewChannelsResponse.m */; };
+		C5A257B37E924C91BCDF4AC3 /* libPods-cloudmine-iosTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A7A03BD5FF46B2AA60E5AB /* libPods-cloudmine-iosTests.a */; };
 		D004178E15925DC900B596CC /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = D01DBF591590D36D003CB5BE /* NSData+Base64.m */; };
 		D039C16715BDEB77005CCD33 /* CMACLSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D039C16615BDEB77005CCD33 /* CMACLSpec.m */; };
 		D039C16A15BEEB44005CCD33 /* CMACLFetchResponseSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D039C16915BEEB44005CCD33 /* CMACLFetchResponseSpec.m */; };
-		D03A4D5C15B48D2200A956BC /* CMACLFetchResponse.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D042C2E915AF41F100A88888 /* CMACLFetchResponse.h */; };
 		D042C2EB15AF41F100A88888 /* CMACLFetchResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D042C2EA15AF41F100A88888 /* CMACLFetchResponse.m */; };
-		D088F5B015E3FDF1005062BD /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D088F59C15E3FDF1005062BD /* AFHTTPClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		D088F5B115E3FDF1005062BD /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D088F59E15E3FDF1005062BD /* AFHTTPRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		D088F5B515E3FDF1005062BD /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D088F5A615E3FDF1005062BD /* AFNetworkActivityIndicatorManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		D088F5B715E3FDF1005062BD /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D088F5AB15E3FDF1005062BD /* AFURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		D0F4E4F615E418F800055638 /* AFJSONUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D088F5A415E3FDF1005062BD /* AFJSONUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E20A606618177EC80003A64E /* libcloudmine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AB4AB5F145DC5D8006AEF67 /* libcloudmine.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -176,68 +107,10 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		7A87315114BB0AB0000D6DEA /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "${SRCROOT}/build/${CONFIGURATION}-iphoneuniversal/${PRODUCT_NAME}.framework/Headers/";
-			dstSubfolderSpec = 0;
-			files = (
-				AAC1D8F916DD5B34002A7DC0 /* CMResponse.h in CopyFiles */,
-				AAC1D8FA16DD5B34002A7DC0 /* CMChannelResponse.h in CopyFiles */,
-				AAB2E0B4167BA05700D2C699 /* CMAppDelegateBase.h in CopyFiles */,
-				715217581653F5C4007FB0A9 /* CMSocialLoginViewController.h in CopyFiles */,
-				7152175A1653F5C4007FB0A9 /* CMUIViewController+Modal.h in CopyFiles */,
-				7A3DCEEF15EECBB600AC4890 /* AFHTTPClient.h in CopyFiles */,
-				D03A4D5C15B48D2200A956BC /* CMACLFetchResponse.h in CopyFiles */,
-				7AF00BA215A8DC7C0070442A /* CMACL.h in CopyFiles */,
-				7AF00BA315A8DC7C0070442A /* CMUser.h in CopyFiles */,
-				7A28005515929AEC002C504A /* CMObjectOwnershipLevel.h in CopyFiles */,
-				7A28002615922364002C504A /* CMDate.h in CopyFiles */,
-				7A28002715922364002C504A /* CMFile.h in CopyFiles */,
-				7A28002815922364002C504A /* CMGeoPoint.h in CopyFiles */,
-				7A28002915922364002C504A /* CMObject.h in CopyFiles */,
-				7A28002A15922364002C504A /* CMObjectClassNameRegistry.h in CopyFiles */,
-				7A28002B15922364002C504A /* CMUntypedObject.h in CopyFiles */,
-				7A28002C15922364002C504A /* CMNullStore.h in CopyFiles */,
-				7AEF7B4B158EB60000BE47B3 /* CMActiveUser.h in CopyFiles */,
-				65199ED5156A84D600267EC6 /* CMDistance.h in CopyFiles */,
-				65199ECD156A847A00267EC6 /* CMDeleteResponse.h in CopyFiles */,
-				65199ECE156A847A00267EC6 /* CMFileFetchResponse.h in CopyFiles */,
-				65199ECF156A847A00267EC6 /* CMFileUploadResponse.h in CopyFiles */,
-				65199ED0156A847A00267EC6 /* CMObjectFetchResponse.h in CopyFiles */,
-				65199ED1156A847A00267EC6 /* CMObjectUploadResponse.h in CopyFiles */,
-				65199ED2156A847A00267EC6 /* CMResponseMetadata.h in CopyFiles */,
-				65199ED3156A847A00267EC6 /* CMSnippetResult.h in CopyFiles */,
-				65199ED4156A847A00267EC6 /* CMStoreResponse.h in CopyFiles */,
-				7A87A3351563FF2700D788E2 /* CMSortDescriptor.h in CopyFiles */,
-				7AB8BAFA1521066F00860081 /* SPLowVerbosity.h in CopyFiles */,
-				7A934E78150E8CC200A2CAD6 /* CMObjectSerialization.h in CopyFiles */,
-				7A4A6FB91500474500B95D13 /* CMUserAccountResult.h in CopyFiles */,
-				7AE355D714F1B896006AF903 /* CMFileUploadResult.h in CopyFiles */,
-				7A58CC2314F1B54E003E864B /* CMMimeType.h in CopyFiles */,
-				7AA79DDD14DC5E4D00F3CA3B /* CloudMine.h in CopyFiles */,
-				7A5C40A814D8B11D00906689 /* CMPagingDescriptor.h in CopyFiles */,
-				7A5C40A914D8B11D00906689 /* CMStoreOptions.h in CopyFiles */,
-				7A5C40AA14D8B11D00906689 /* CMStoreCallbacks.h in CopyFiles */,
-				7A262E0B14C8F8B0006A03BA /* NSURL+QueryParameterAdditions.h in CopyFiles */,
-				7A262E0C14C8F8B0006A03BA /* CMStore.h in CopyFiles */,
-				7A87315314BB0AD0000D6DEA /* NSString+UUID.h in CopyFiles */,
-				7A87315414BB0AD0000D6DEA /* CMObjectDecoder.h in CopyFiles */,
-				7A87315514BB0AD0000D6DEA /* CMObjectEncoder.h in CopyFiles */,
-				7A87315614BB0AD0000D6DEA /* CMJSONEncoder.h in CopyFiles */,
-				7A87315714BB0AD0000D6DEA /* CMWebService.h in CopyFiles */,
-				7A87315914BB0AD0000D6DEA /* CMAPICredentials.h in CopyFiles */,
-				7A87315A14BB0AD0000D6DEA /* CMServerFunction.h in CopyFiles */,
-				7A87315B14BB0AD0000D6DEA /* CMSerializable.h in CopyFiles */,
-				AAA850ED168271B600C18957 /* CMDeviceTokenResult.h in CopyFiles */,
-				AAC1D90916DD6CA6002A7DC0 /* CMViewChannelsResponse.h in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
+		01A7A03BD5FF46B2AA60E5AB /* libPods-cloudmine-iosTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cloudmine-iosTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BEC46F0BFED4CCA885359DB /* libPods-cloudmine-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cloudmine-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5856866C0B264F6EBDDF894B /* Pods-cloudmine-ios.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cloudmine-ios.xcconfig"; path = "../Pods/Pods-cloudmine-ios.xcconfig"; sourceTree = "<group>"; };
 		65199EAF156A7D9500267EC6 /* CMDeleteResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMDeleteResponse.h; path = Response/CMDeleteResponse.h; sourceTree = "<group>"; };
 		65199EB0156A7D9500267EC6 /* CMDeleteResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMDeleteResponse.m; path = Response/CMDeleteResponse.m; sourceTree = "<group>"; };
 		65199EB1156A7D9500267EC6 /* CMFileFetchResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMFileFetchResponse.h; path = Response/CMFileFetchResponse.h; sourceTree = "<group>"; };
@@ -276,7 +149,6 @@
 		7A0DB1BB147B016B007F482C /* CMBlockValidationMessageSpy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CMBlockValidationMessageSpy.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		7A28005315928518002C504A /* CMObjectOwnershipLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMObjectOwnershipLevel.h; sourceTree = "<group>"; };
 		7A308A4314799134008ADD3C /* CMWebServiceSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMWebServiceSpec.m; sourceTree = "<group>"; };
-		7A308A4B14799471008ADD3C /* libKiwi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libKiwi.a; path = "kiwi/build/Release-iphoneos/libKiwi.a"; sourceTree = "<group>"; };
 		7A3DCECB15EEAF3000AC4890 /* CMObject+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CMObject+Private.h"; sourceTree = "<group>"; };
 		7A4A6F2814FFF08100B95D13 /* CMUserSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMUserSpec.m; sourceTree = "<group>"; };
 		7A4A6F2B14FFF3CF00B95D13 /* CMUserAccountResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMUserAccountResult.h; sourceTree = "<group>"; };
@@ -377,6 +249,8 @@
 		7AFDFE48158E965400388D6E /* CMActiveUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMActiveUser.h; sourceTree = "<group>"; };
 		7AFDFE49158E965400388D6E /* CMActiveUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMActiveUser.m; sourceTree = "<group>"; };
 		7AFDFE4B158E9EB400388D6E /* CMActiveUserSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMActiveUserSpec.m; sourceTree = "<group>"; };
+		968F9A4716B3419BBA6F26A8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		98BA2C0C79F147AC9D3B405A /* Pods-cloudmine-iosTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cloudmine-iosTests.xcconfig"; path = "../Pods/Pods-cloudmine-iosTests.xcconfig"; sourceTree = "<group>"; };
 		AAA850EC168271B500C18957 /* CMDeviceTokenResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDeviceTokenResult.h; sourceTree = "<group>"; };
 		AAB2E0AE167B94CF00D2C699 /* CMAppDelegateBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAppDelegateBase.h; sourceTree = "<group>"; };
 		AAB2E0AF167B94CF00D2C699 /* CMAppDelegateBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAppDelegateBase.m; sourceTree = "<group>"; };
@@ -392,27 +266,6 @@
 		D039C16915BEEB44005CCD33 /* CMACLFetchResponseSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMACLFetchResponseSpec.m; sourceTree = "<group>"; };
 		D042C2E915AF41F100A88888 /* CMACLFetchResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMACLFetchResponse.h; sourceTree = "<group>"; };
 		D042C2EA15AF41F100A88888 /* CMACLFetchResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMACLFetchResponse.m; sourceTree = "<group>"; };
-		D088F59B15E3FDF1005062BD /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
-		D088F59C15E3FDF1005062BD /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
-		D088F59D15E3FDF1005062BD /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
-		D088F59E15E3FDF1005062BD /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
-		D088F59F15E3FDF1005062BD /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
-		D088F5A015E3FDF1005062BD /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
-		D088F5A115E3FDF1005062BD /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
-		D088F5A215E3FDF1005062BD /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
-		D088F5A315E3FDF1005062BD /* AFJSONUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONUtilities.h; sourceTree = "<group>"; };
-		D088F5A415E3FDF1005062BD /* AFJSONUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONUtilities.m; sourceTree = "<group>"; };
-		D088F5A515E3FDF1005062BD /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
-		D088F5A615E3FDF1005062BD /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
-		D088F5A715E3FDF1005062BD /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
-		D088F5A815E3FDF1005062BD /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
-		D088F5A915E3FDF1005062BD /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
-		D088F5AA15E3FDF1005062BD /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
-		D088F5AB15E3FDF1005062BD /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
-		D088F5AC15E3FDF1005062BD /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
-		D088F5AD15E3FDF1005062BD /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
-		D088F5AE15E3FDF1005062BD /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
-		D088F5AF15E3FDF1005062BD /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -429,6 +282,7 @@
 				7A0413D4146C5B5C00EF537A /* SystemConfiguration.framework in Frameworks */,
 				7A0413D2146C5B5200EF537A /* CFNetwork.framework in Frameworks */,
 				7AB4AB63145DC5D8006AEF67 /* Foundation.framework in Frameworks */,
+				5468AD7FDA20458BA2B56DFD /* libPods-cloudmine-ios.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,16 +290,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A308A4C14799471008ADD3C /* libKiwi.a in Frameworks */,
+				E20A606618177EC80003A64E /* libcloudmine.a in Frameworks */,
+				7AB4AB71145DC5D8006AEF67 /* SenTestingKit.framework in Frameworks */,
 				7A308A3C14798F29008ADD3C /* libz.dylib in Frameworks */,
 				7A308A3B14798F1D008ADD3C /* CFNetwork.framework in Frameworks */,
 				7A308A3A14798F19008ADD3C /* CoreGraphics.framework in Frameworks */,
 				7A308A3914798F12008ADD3C /* SystemConfiguration.framework in Frameworks */,
 				7A308A3814798F0E008ADD3C /* MobileCoreServices.framework in Frameworks */,
 				7A308A3714798EFD008ADD3C /* UIKit.framework in Frameworks */,
-				7AB4AB71145DC5D8006AEF67 /* SenTestingKit.framework in Frameworks */,
 				7AB4AB74145DC5D8006AEF67 /* Foundation.framework in Frameworks */,
-				7AB4AB77145DC5D8006AEF67 /* libcloudmine.a in Frameworks */,
+				C5A257B37E924C91BCDF4AC3 /* libPods-cloudmine-iosTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,7 +363,6 @@
 			children = (
 				D01DBF581590D36D003CB5BE /* NSData+Base64.h */,
 				D01DBF591590D36D003CB5BE /* NSData+Base64.m */,
-				D088F59A15E3FDF1005062BD /* AFNetworking */,
 				7AF02D4B1507B35B005F03FD /* SPSuccinct */,
 				7AA79D6914DC23C700F3CA3B /* MAObjCRuntime */,
 				7AD36F72146C623B00DD4734 /* YAJL */,
@@ -595,6 +448,8 @@
 				7AB4AB78145DC5D8006AEF67 /* iosTests */,
 				7AB4AB61145DC5D8006AEF67 /* Frameworks */,
 				7AB4AB60145DC5D8006AEF67 /* Products */,
+				98BA2C0C79F147AC9D3B405A /* Pods-cloudmine-iosTests.xcconfig */,
+				5856866C0B264F6EBDDF894B /* Pods-cloudmine-ios.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -610,7 +465,6 @@
 		7AB4AB61145DC5D8006AEF67 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7A308A4B14799471008ADD3C /* libKiwi.a */,
 				7A91E8D814E6EF85008B7941 /* CoreLocation.framework */,
 				7AF6685414719FC800E2A06D /* YAJLiOS */,
 				7AD36F80146C656600DD4734 /* UIKit.framework */,
@@ -622,6 +476,9 @@
 				7AB4AB62145DC5D8006AEF67 /* Foundation.framework */,
 				7AB4AB70145DC5D8006AEF67 /* SenTestingKit.framework */,
 				7A0A2F0714BB039800F9D024 /* CoreFoundation.framework */,
+				968F9A4716B3419BBA6F26A8 /* libPods.a */,
+				01A7A03BD5FF46B2AA60E5AB /* libPods-cloudmine-iosTests.a */,
+				1BEC46F0BFED4CCA885359DB /* libPods-cloudmine-ios.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -807,35 +664,6 @@
 			name = "Push Notifications";
 			sourceTree = "<group>";
 		};
-		D088F59A15E3FDF1005062BD /* AFNetworking */ = {
-			isa = PBXGroup;
-			children = (
-				D088F59B15E3FDF1005062BD /* AFHTTPClient.h */,
-				D088F59C15E3FDF1005062BD /* AFHTTPClient.m */,
-				D088F59D15E3FDF1005062BD /* AFHTTPRequestOperation.h */,
-				D088F59E15E3FDF1005062BD /* AFHTTPRequestOperation.m */,
-				D088F59F15E3FDF1005062BD /* AFImageRequestOperation.h */,
-				D088F5A015E3FDF1005062BD /* AFImageRequestOperation.m */,
-				D088F5A115E3FDF1005062BD /* AFJSONRequestOperation.h */,
-				D088F5A215E3FDF1005062BD /* AFJSONRequestOperation.m */,
-				D088F5A315E3FDF1005062BD /* AFJSONUtilities.h */,
-				D088F5A415E3FDF1005062BD /* AFJSONUtilities.m */,
-				D088F5A515E3FDF1005062BD /* AFNetworkActivityIndicatorManager.h */,
-				D088F5A615E3FDF1005062BD /* AFNetworkActivityIndicatorManager.m */,
-				D088F5A715E3FDF1005062BD /* AFNetworking.h */,
-				D088F5A815E3FDF1005062BD /* AFPropertyListRequestOperation.h */,
-				D088F5A915E3FDF1005062BD /* AFPropertyListRequestOperation.m */,
-				D088F5AA15E3FDF1005062BD /* AFURLConnectionOperation.h */,
-				D088F5AB15E3FDF1005062BD /* AFURLConnectionOperation.m */,
-				D088F5AC15E3FDF1005062BD /* AFXMLRequestOperation.h */,
-				D088F5AD15E3FDF1005062BD /* AFXMLRequestOperation.m */,
-				D088F5AE15E3FDF1005062BD /* UIImageView+AFNetworking.h */,
-				D088F5AF15E3FDF1005062BD /* UIImageView+AFNetworking.m */,
-			);
-			name = AFNetworking;
-			path = AFNetworking/AFNetworking;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -843,9 +671,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7AB4AB83145DC5D8006AEF67 /* Build configuration list for PBXNativeTarget "cloudmine-ios" */;
 			buildPhases = (
+				093F8FD27B9E4B59A5688521 /* Check Pods Manifest.lock */,
 				7AB4AB5B145DC5D8006AEF67 /* Sources */,
 				7AB4AB5C145DC5D8006AEF67 /* Frameworks */,
-				AA18E35516DBC683000BC23E /* ShellScript */,
+				E64C5DEDD1174170A6B70FCF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -860,10 +689,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7AB4AB86145DC5D8006AEF67 /* Build configuration list for PBXNativeTarget "cloudmine-iosTests" */;
 			buildPhases = (
+				4423A626527C453697C9673A /* Check Pods Manifest.lock */,
 				7AB4AB6A145DC5D8006AEF67 /* Sources */,
 				7AB4AB6B145DC5D8006AEF67 /* Frameworks */,
 				7AB4AB6C145DC5D8006AEF67 /* Resources */,
 				7AB4AB6D145DC5D8006AEF67 /* ShellScript */,
+				09BFCE3EDF7D434C8B704CC7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -898,7 +729,6 @@
 			targets = (
 				7AB4AB5E145DC5D8006AEF67 /* cloudmine-ios */,
 				7AB4AB6E145DC5D8006AEF67 /* cloudmine-iosTests */,
-				7A87314B14BB09E3000D6DEA /* CloudMine */,
 			);
 		};
 /* End PBXProject section */
@@ -915,59 +745,78 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7A87314F14BB0A0A000D6DEA /* Build Static Libs */ = {
+		093F8FD27B9E4B59A5688521 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Build Static Libs";
+			name = "Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/bash;
-			shellScript = "xcodebuild -project ${PROJECT_NAME}.xcodeproj -sdk iphonesimulator -target ${PROJECT_NAME} -configuration ${CONFIGURATION} clean build CONFIGURATION_BUILD_DIR=${BUILD_DIR}/${CONFIGURATION}-iphonesimulator\n\nxcodebuild -project ${PROJECT_NAME}.xcodeproj -sdk iphoneos -target ${PROJECT_NAME} -configuration ${CONFIGURATION} clean build CONFIGURATION_BUILD_DIR=${BUILD_DIR}/${CONFIGURATION}-iphoneos";
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
 		};
-		7A87315014BB0A5F000D6DEA /* Build universal binary */ = {
+		09BFCE3EDF7D434C8B704CC7 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Build universal binary";
+			name = "Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/bash;
-			shellScript = "SIMULATOR_LIBRARY_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/libcloudmine.a\" &&\nDEVICE_LIBRARY_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphoneos/libcloudmine.a\" &&\nUNIVERSAL_LIBRARY_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphoneuniversal\" &&\nUNIVERSAL_LIBRARY_PATH=\"${UNIVERSAL_LIBRARY_DIR}/${PRODUCT_NAME}\" &&\nFRAMEWORK=\"${UNIVERSAL_LIBRARY_DIR}/${PRODUCT_NAME}.framework\" &&\n\n# Create framework directory structure.\nrm -rf \"${FRAMEWORK}\" &&\nrm -rf \"${SRCROOT}/build\" &&\nmkdir -p \"${UNIVERSAL_LIBRARY_DIR}\" &&\nmkdir -p \"${FRAMEWORK}/Versions/A/Headers\" &&\nmkdir -p \"${FRAMEWORK}/Versions/A/Resources\" &&\nmkdir -p \"${SRCROOT}/build\" &&\n\n# Generate universal binary for the device and simulator.\nlipo \"${SIMULATOR_LIBRARY_PATH}\" \"${DEVICE_LIBRARY_PATH}\" -create -output \"${UNIVERSAL_LIBRARY_PATH}\" &&\n\n# Move files to appropriate locations in framework paths.\ncp \"${UNIVERSAL_LIBRARY_PATH}\" \"${FRAMEWORK}/Versions/A\" &&\nln -s \"A\" \"${FRAMEWORK}/Versions/Current\" &&\nln -s \"Versions/Current/Headers\" \"${FRAMEWORK}/Headers\" &&\nln -s \"Versions/Current/Resources\" \"${FRAMEWORK}/Resources\" &&\nln -s \"Versions/Current/${PRODUCT_NAME}\" \"${FRAMEWORK}/${PRODUCT_NAME}\" &&\n\n# Copy the final framework to a nicer location\ncp -RP \"${UNIVERSAL_LIBRARY_DIR}\" \"${SRCROOT}/build\"\n";
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Pods-cloudmine-iosTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4423A626527C453697C9673A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
 		};
 		7AB4AB6D145DC5D8006AEF67 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
 			);
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
-		AA18E35516DBC683000BC23E /* ShellScript */ = {
+		E64C5DEDD1174170A6B70FCF /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+			name = "Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/doxygen ios/Doxyfile\nmake -C $SOURCE_ROOT/docs/html install\n\nrm -f $TEMP_DIR/loadDocSet.scpt\n\necho \"tell application \\\"Xcode\\\"\" >> $TEMP_DIR/loadDocSet.scpt\necho \"load documentation set with path \\\"/Users/$USER/Library/Developer/Shared/Documentation/DocSets/\\\"\"\n>> $TEMP_DIR/loadDocSet.scpt\necho \"end tell\" >> $TEMP_DIR/loadDocSet.scpt\n\n#  Run the load-docset applescript command.\nosascript $TEMP_DIR/loadDocSet.scpt";
+			shellScript = "\"${SRCROOT}/../Pods/Pods-cloudmine-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1016,11 +865,6 @@
 				7AF00BA015A8DC650070442A /* CMACL.m in Sources */,
 				7AF00BA115A8DC650070442A /* CMUser.m in Sources */,
 				D042C2EB15AF41F100A88888 /* CMACLFetchResponse.m in Sources */,
-				D088F5B015E3FDF1005062BD /* AFHTTPClient.m in Sources */,
-				D088F5B115E3FDF1005062BD /* AFHTTPRequestOperation.m in Sources */,
-				D088F5B515E3FDF1005062BD /* AFNetworkActivityIndicatorManager.m in Sources */,
-				D088F5B715E3FDF1005062BD /* AFURLConnectionOperation.m in Sources */,
-				D0F4E4F615E418F800055638 /* AFJSONUtilities.m in Sources */,
 				71E886B716516C3D0060C217 /* CMSocialLoginViewController.m in Sources */,
 				71E886BA16516F0F0060C217 /* CMUIViewController+Modal.m in Sources */,
 				AAB2E0B0167B94CF00D2C699 /* CMAppDelegateBase.m in Sources */,
@@ -1080,20 +924,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		7A87314D14BB09E3000D6DEA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		7A87314E14BB09E3000D6DEA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 		7AB4AB81145DC5D8006AEF67 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1164,17 +994,16 @@
 		};
 		7AB4AB84145DC5D8006AEF67 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5856866C0B264F6EBDDF894B /* Pods-cloudmine-ios.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CURRENT_PROJECT_VERSION = 1.5.7;
 				DSTROOT = /tmp/ios.dst;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ios/cloudmine-ios-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/ios/Vendor/YAJL/YAJLiOS.framework/Versions/A\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -1186,16 +1015,15 @@
 		};
 		7AB4AB85145DC5D8006AEF67 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5856866C0B264F6EBDDF894B /* Pods-cloudmine-ios.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CURRENT_PROJECT_VERSION = 1.5.7;
 				DSTROOT = /tmp/ios.dst;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ios/cloudmine-ios-Prefix.pch";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/ios/Vendor/YAJL/YAJLiOS.framework/Versions/A\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -1207,50 +1035,42 @@
 		};
 		7AB4AB87145DC5D8006AEF67 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98BA2C0C79F147AC9D3B405A /* Pods-cloudmine-iosTests.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-					"\"$(SRCROOT)/ios/Vendor/YAJL\"",
-					"\"$(SRCROOT)/ios/Vendor/SinglySDK\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ios/cloudmine-ios-Prefix.pch";
-				INFOPLIST_FILE = "iosTests/cloudmine-iosTests-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/kiwi/build/Debug-iphonesimulator",
-					"\"$(SRCROOT)/ios/Vendor/YAJL/YAJLiOS.framework/Versions/A\"",
-					"\"$(SRCROOT)/ios/Vendor/SinglySDK\"",
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Kiwi\"",
 				);
+				INFOPLIST_FILE = "iosTests/cloudmine-iosTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "cloudmine-iosTests";
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/kiwi/Kiwi";
+				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
 		7AB4AB88145DC5D8006AEF67 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98BA2C0C79F147AC9D3B405A /* Pods-cloudmine-iosTests.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-					"\"$(SRCROOT)/ios/Vendor/YAJL\"",
-					"\"$(SRCROOT)/ios/Vendor/SinglySDK\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ios/cloudmine-ios-Prefix.pch";
-				INFOPLIST_FILE = "iosTests/cloudmine-iosTests-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/kiwi/build/Debug-iphonesimulator",
-					"\"$(SRCROOT)/ios/Vendor/YAJL/YAJLiOS.framework/Versions/A\"",
-					"\"$(SRCROOT)/ios/Vendor/SinglySDK\"",
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Kiwi\"",
 				);
+				INFOPLIST_FILE = "iosTests/cloudmine-iosTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "cloudmine-iosTests";
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/kiwi/Kiwi";
+				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
@@ -1258,15 +1078,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7A87314C14BB09E3000D6DEA /* Build configuration list for PBXAggregateTarget "CloudMine" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7A87314D14BB09E3000D6DEA /* Debug */,
-				7A87314E14BB09E3000D6DEA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		7AB4AB59145DC5D8006AEF67 /* Build configuration list for PBXProject "cloudmine-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

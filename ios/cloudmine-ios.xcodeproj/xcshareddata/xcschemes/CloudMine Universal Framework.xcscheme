@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7A87314B14BB09E3000D6DEA"
-               BuildableName = "CloudMine"
+               BuildableName = "CloudMine.framework"
                BlueprintName = "CloudMine"
                ReferencedContainer = "container:cloudmine-ios.xcodeproj">
             </BuildableReference>
