@@ -5,6 +5,6 @@
       location = "group:ios/cloudmine-ios.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:ios/kiwi/Kiwi.xcodeproj">
+      location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>
