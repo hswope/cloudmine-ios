@@ -69,7 +69,6 @@
 		7AE2848B1562C3C8003E8A8F /* CMSortDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE2848A1562C3C8003E8A8F /* CMSortDescriptor.m */; };
 		7AF00BA015A8DC650070442A /* CMACL.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF00B9D15A8DC650070442A /* CMACL.m */; };
 		7AF00BA115A8DC650070442A /* CMUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF00B9F15A8DC650070442A /* CMUser.m */; };
-		7AF6685514719FC900E2A06D /* YAJLiOS in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF6685414719FC800E2A06D /* YAJLiOS */; };
 		7AFDFE42158E959B00388D6E /* CMDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFDFE37158E959B00388D6E /* CMDate.m */; };
 		7AFDFE43158E959B00388D6E /* CMFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFDFE39158E959B00388D6E /* CMFile.m */; };
 		7AFDFE44158E959B00388D6E /* CMGeoPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFDFE3B158E959B00388D6E /* CMGeoPoint.m */; };
@@ -202,7 +201,6 @@
 		7AF00B9D15A8DC650070442A /* CMACL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMACL.m; sourceTree = "<group>"; };
 		7AF00B9E15A8DC650070442A /* CMUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMUser.h; sourceTree = "<group>"; };
 		7AF00B9F15A8DC650070442A /* CMUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMUser.m; sourceTree = "<group>"; };
-		7AF6685414719FC800E2A06D /* YAJLiOS */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = YAJLiOS; path = ios/Vendor/YAJL/YAJLiOS.framework/Versions/A/YAJLiOS; sourceTree = "<group>"; };
 		7AFDFE36158E959B00388D6E /* CMDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDate.h; sourceTree = "<group>"; };
 		7AFDFE37158E959B00388D6E /* CMDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDate.m; sourceTree = "<group>"; };
 		7AFDFE38158E959B00388D6E /* CMFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMFile.h; sourceTree = "<group>"; };
@@ -242,7 +240,6 @@
 			files = (
 				7A91E8D914E6EF85008B7941 /* CoreLocation.framework in Frameworks */,
 				7A0413DA146C5B7400EF537A /* libz.dylib in Frameworks */,
-				7AF6685514719FC900E2A06D /* YAJLiOS in Frameworks */,
 				7AD36F81146C656600DD4734 /* UIKit.framework in Frameworks */,
 				7A0413D8146C5B7000EF537A /* CoreGraphics.framework in Frameworks */,
 				7A0413D6146C5B6900EF537A /* MobileCoreServices.framework in Frameworks */,
@@ -401,7 +398,6 @@
 			isa = PBXGroup;
 			children = (
 				7A91E8D814E6EF85008B7941 /* CoreLocation.framework */,
-				7AF6685414719FC800E2A06D /* YAJLiOS */,
 				7AD36F80146C656600DD4734 /* UIKit.framework */,
 				7A0413D9146C5B7400EF537A /* libz.dylib */,
 				7A0413D7146C5B7000EF537A /* CoreGraphics.framework */,
