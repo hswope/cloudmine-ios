@@ -11,7 +11,5 @@ build/
 xcuserdata/
 
 #Pods
-Podfile.lock
 Pods/
-
 

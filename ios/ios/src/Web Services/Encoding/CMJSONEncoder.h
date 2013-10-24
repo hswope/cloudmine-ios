@@ -7,7 +7,6 @@
 //
 
 #import <YAJL.h>
-
 #import "CMObjectEncoder.h"
 
 /**
