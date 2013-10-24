@@ -3,10 +3,15 @@
 .DS_Store
 ._*
 *.sw*
+.idea/
 
 # Xcode Files #
 ###############
 build/
 xcuserdata/
+
+#Pods
+Podfile.lock
+Pods/
 
 

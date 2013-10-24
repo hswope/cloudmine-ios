@@ -6,7 +6,6 @@
 //  See LICENSE file included with SDK for details.
 //
 
-#import <YAJL.h>
 #import "CMJSONEncoder.h"
 
 @implementation CMJSONEncoder
