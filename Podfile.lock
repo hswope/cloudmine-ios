@@ -10,7 +10,9 @@ PODS:
   - MAObjCRuntime (0.0.1)
   - NSData+Base64 (1.0.0)
   - SPSuccinct (1.0.1)
-  - yajl (2.0.4)
+  - yajl (1.0.12)
+  - yajl-objc (0.2.27):
+    - yajl (~> 1.0.11)
 
 DEPENDENCIES:
   - AFNetworking (= 0.10.1)
@@ -18,7 +20,8 @@ DEPENDENCIES:
   - MAObjCRuntime (~> 0.0.1)
   - NSData+Base64 (~> 1.0.0)
   - SPSuccinct (~> 1.0.1)
-  - yajl (~> 2.0.4)
+  - yajl (= 1.0.12)
+  - yajl-objc (~> 0.2.27)
 
 SPEC CHECKSUMS:
   AFNetworking: df1042246c17373b96f12f04bf5c6e1c25992cd4
@@ -26,6 +29,7 @@ SPEC CHECKSUMS:
   MAObjCRuntime: 284004079156d10cb8237bc3ffcfa3a0e1a0af22
   NSData+Base64: 4819562faee4544e3cf5703f2139820b09732b28
   SPSuccinct: 2d8c872e649c879734353d9463acce04a8dd185b
-  yajl: f578f337f0488dc873bcda2d80e32ac8cf402d04
+  yajl: 7a6336470c6c72c0e805b1340a538f3e381b6b16
+  yajl-objc: 2257a588e12f2dc423276d777efe3279830f1362
 
 COCOAPODS: 0.26.2

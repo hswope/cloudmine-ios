@@ -7,7 +7,7 @@
 //
 
 #import <AFNetworking/AFNetworking.h>
-#import <YAJLiOS/YAJL.h>
+#import <YAJL.h>
 
 #import "SPLowVerbosity.h"
 
