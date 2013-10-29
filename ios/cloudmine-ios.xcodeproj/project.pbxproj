@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5468AD7FDA20458BA2B56DFD /* libPods-cloudmine-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BEC46F0BFED4CCA885359DB /* libPods-cloudmine-ios.a */; };
+		1B0150CC986E4700B7BA08F8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 968F9A4716B3419BBA6F26A8 /* libPods.a */; };
 		65199EC2156A7D9500267EC6 /* CMDeleteResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 65199EB0156A7D9500267EC6 /* CMDeleteResponse.m */; };
 		65199EC3156A7D9500267EC6 /* CMFileFetchResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 65199EB2156A7D9500267EC6 /* CMFileFetchResponse.m */; };
 		65199EC4156A7D9500267EC6 /* CMFileUploadResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 65199EB4156A7D9500267EC6 /* CMFileUploadResponse.m */; };
@@ -101,7 +101,6 @@
 /* Begin PBXFileReference section */
 		01A7A03BD5FF46B2AA60E5AB /* libPods-cloudmine-iosTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cloudmine-iosTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BEC46F0BFED4CCA885359DB /* libPods-cloudmine-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cloudmine-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5856866C0B264F6EBDDF894B /* Pods-cloudmine-ios.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cloudmine-ios.xcconfig"; path = "../Pods/Pods-cloudmine-ios.xcconfig"; sourceTree = "<group>"; };
 		65199EAF156A7D9500267EC6 /* CMDeleteResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMDeleteResponse.h; path = Response/CMDeleteResponse.h; sourceTree = "<group>"; };
 		65199EB0156A7D9500267EC6 /* CMDeleteResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMDeleteResponse.m; path = Response/CMDeleteResponse.m; sourceTree = "<group>"; };
 		65199EB1156A7D9500267EC6 /* CMFileFetchResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMFileFetchResponse.h; path = Response/CMFileFetchResponse.h; sourceTree = "<group>"; };
@@ -227,6 +226,7 @@
 		AAC1D8F316DD51FA002A7DC0 /* CMResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMResponse.m; sourceTree = "<group>"; };
 		AAC1D90716DD6CA4002A7DC0 /* CMViewChannelsResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMViewChannelsResponse.h; sourceTree = "<group>"; };
 		AAC1D90816DD6CA5002A7DC0 /* CMViewChannelsResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMViewChannelsResponse.m; sourceTree = "<group>"; };
+		C9E7263CBD1E4FA1ADFA719E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = ../Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		D039C16615BDEB77005CCD33 /* CMACLSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMACLSpec.m; sourceTree = "<group>"; };
 		D039C16915BEEB44005CCD33 /* CMACLFetchResponseSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMACLFetchResponseSpec.m; sourceTree = "<group>"; };
 		D042C2E915AF41F100A88888 /* CMACLFetchResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMACLFetchResponse.h; sourceTree = "<group>"; };
@@ -246,7 +246,7 @@
 				7A0413D4146C5B5C00EF537A /* SystemConfiguration.framework in Frameworks */,
 				7A0413D2146C5B5200EF537A /* CFNetwork.framework in Frameworks */,
 				7AB4AB63145DC5D8006AEF67 /* Foundation.framework in Frameworks */,
-				5468AD7FDA20458BA2B56DFD /* libPods-cloudmine-ios.a in Frameworks */,
+				1B0150CC986E4700B7BA08F8 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,7 +381,7 @@
 				7AB4AB61145DC5D8006AEF67 /* Frameworks */,
 				7AB4AB60145DC5D8006AEF67 /* Products */,
 				98BA2C0C79F147AC9D3B405A /* Pods-cloudmine-iosTests.xcconfig */,
-				5856866C0B264F6EBDDF894B /* Pods-cloudmine-ios.xcconfig */,
+				C9E7263CBD1E4FA1ADFA719E /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -668,7 +668,7 @@
 		};
 		09BFCE3EDF7D434C8B704CC7 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (
@@ -721,7 +721,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Pods-cloudmine-ios-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/../Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -833,8 +833,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-				);
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -848,9 +847,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)\"/**",
-				);
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = "-all_load";
@@ -870,17 +867,14 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-				);
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)\"/**",
-				);
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = "-all_load";
@@ -892,7 +886,7 @@
 		};
 		7AB4AB84145DC5D8006AEF67 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5856866C0B264F6EBDDF894B /* Pods-cloudmine-ios.xcconfig */;
+			baseConfigurationReference = C9E7263CBD1E4FA1ADFA719E /* Pods.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CURRENT_PROJECT_VERSION = 1.5.7;
@@ -901,6 +895,15 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ios/cloudmine-ios-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/MAObjCRuntime\"",
+					"\"${PODS_ROOT}/Headers/NSData+Base64\"",
+					"\"${PODS_ROOT}/Headers/SPSuccinct\"",
+					"\"${PODS_ROOT}/Headers/yajl\"",
+					"\"${PODS_ROOT}/Headers/yajl-objc\"",
+				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -913,7 +916,7 @@
 		};
 		7AB4AB85145DC5D8006AEF67 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5856866C0B264F6EBDDF894B /* Pods-cloudmine-ios.xcconfig */;
+			baseConfigurationReference = C9E7263CBD1E4FA1ADFA719E /* Pods.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CURRENT_PROJECT_VERSION = 1.5.7;
@@ -921,6 +924,15 @@
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ios/cloudmine-ios-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/MAObjCRuntime\"",
+					"\"${PODS_ROOT}/Headers/NSData+Base64\"",
+					"\"${PODS_ROOT}/Headers/SPSuccinct\"",
+					"\"${PODS_ROOT}/Headers/yajl\"",
+					"\"${PODS_ROOT}/Headers/yajl-objc\"",
+				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -935,17 +947,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 98BA2C0C79F147AC9D3B405A /* Pods-cloudmine-iosTests.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ios/cloudmine-ios-Prefix.pch";
-				HEADER_SEARCH_PATHS = (
-					"\"${PODS_ROOT}/Headers\"",
-					"\"${PODS_ROOT}/Headers/AFNetworking\"",
-					"\"${PODS_ROOT}/Headers/Kiwi\"",
-				);
+				HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/Headers\"/**";
 				INFOPLIST_FILE = "iosTests/cloudmine-iosTests-Info.plist";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "cloudmine-iosTests";
 				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = octest;
@@ -956,17 +965,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 98BA2C0C79F147AC9D3B405A /* Pods-cloudmine-iosTests.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ios/cloudmine-ios-Prefix.pch";
-				HEADER_SEARCH_PATHS = (
-					"\"${PODS_ROOT}/Headers\"",
-					"\"${PODS_ROOT}/Headers/AFNetworking\"",
-					"\"${PODS_ROOT}/Headers/Kiwi\"",
-				);
+				HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/Headers\"/**";
 				INFOPLIST_FILE = "iosTests/cloudmine-iosTests-Info.plist";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "cloudmine-iosTests";
 				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = octest;

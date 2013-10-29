@@ -19,7 +19,7 @@ DEPENDENCIES:
   - Kiwi (~> 2.2.2)
   - MAObjCRuntime (~> 0.0.1)
   - NSData+Base64 (~> 1.0.0)
-  - SPSuccinct (~> 1.0.1)
+  - SPSuccinct (= 1.0.1)
   - yajl (= 1.0.12)
   - yajl-objc (~> 0.2.27)
 
