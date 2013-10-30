@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = 'ArcwebQtrak'
+  s.name         = 'ArcwebCloudMine'
   s.version      = '1.5.10'
   s.license      = { :type => 'BSD', :file => 'LICENSE'}
   s.homepage     = 'http://www.arcweb.co'
